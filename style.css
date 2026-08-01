@@ -240,7 +240,7 @@ button:active {
 .envelope {
   position: relative;
   width: 600px;
-  height: 220px;
+  height: 300px;
   background: #ffb6c1;
   border-radius: 12px;
   box-shadow: 0 12px 30px rgba(0,0,0,0.25);
@@ -266,7 +266,7 @@ button:active {
   left: 20px;
   right: 20px;
   bottom: -180px;
-  height: 180px;
+  height: 250px;
   background: white;
   border-radius: 10px;
   padding: 18px;
