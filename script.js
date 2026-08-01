@@ -1,7 +1,7 @@
 const popup = document.getElementById("popup");
 const surpriseBtn = document.getElementById("surpriseBtn");
 const closePopup = document.getElementById("closePopup");
-const newMsgBtn = document.getElementById("newMsgBtn");
+
 const mainMessage = document.getElementById("mainMessage");
 const card = document.getElementById("birthdayCard");
 const balloonBtn = document.getElementById("balloonBtn");
@@ -33,10 +33,6 @@ closePopup.addEventListener("click", () => {
   //lastPopup.style.display="flex";
 });
 
-newMsgBtn.addEventListener("click", () => {
-  mainMessage.textContent = messages[msgIndex];
-  msgIndex = (msgIndex + 1) % messages.length;
-});
 
 card.addEventListener("mousemove", (e) => {
   const x = (e.offsetX / card.offsetWidth - 0.5) * 12;
