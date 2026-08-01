@@ -1,5 +1,3 @@
-convert this below js to mobile responsive 
-
 
 const popup = document.getElementById("popup");
 const surpriseBtn = document.getElementById("surpriseBtn");
