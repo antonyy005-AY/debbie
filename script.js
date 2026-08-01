@@ -86,6 +86,3 @@ const envelopeWrap = document.getElementById("envelopeWrap");
    document.getElementById("popup").style.display = "none";
  });
 
-
-
-HTML/////
