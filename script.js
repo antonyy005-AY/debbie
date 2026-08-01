@@ -1,6 +1,7 @@
 const popup = document.getElementById("popup");
 const surpriseBtn = document.getElementById("surpriseBtn");
 const closePopup = document.getElementById("closePopup");
+
 const mainMessage = document.getElementById("mainMessage");
 const card = document.getElementById("birthdayCard");
 const balloonBtn = document.getElementById("balloonBtn");
@@ -27,7 +28,7 @@ surpriseBtn.addEventListener("click", () => {
 });
 
 closePopup.addEventListener("click", () => {
-window.location.reload();
+	window.location.reload();
   //popup.style.display = "none";
   //lastPopup.style.display="flex";
 });
@@ -62,11 +63,11 @@ balloonBtn.addEventListener("click", () => {
 balloons.forEach(balloon => {
   balloon.addEventListener("click", () => {
     const msg = balloon.getAttribute("data-msg");
-const id = balloon.getAttribute("id");
+	const id = balloon.getAttribute("id");
     balloon.classList.add("popped");
-document.getElementById(id+"msg").value =msg;
-const balloonMessage = document.getElementById(id+"msg");
-balloonMessage.textContent = msg;
+	document.getElementById(id+"msg").value =msg;
+	const balloonMessage = document.getElementById(id+"msg");
+	balloonMessage.textContent = msg;
   });
 });
 
@@ -81,4 +82,3 @@ const envelopeWrap = document.getElementById("envelopeWrap");
    e.stopPropagation();
    document.getElementById("popup").style.display = "none";
  });
-
