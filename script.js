@@ -1,7 +1,7 @@
+
 const popup = document.getElementById("popup");
 const surpriseBtn = document.getElementById("surpriseBtn");
 const closePopup = document.getElementById("closePopup");
-
 const mainMessage = document.getElementById("mainMessage");
 const card = document.getElementById("birthdayCard");
 const balloonBtn = document.getElementById("balloonBtn");
